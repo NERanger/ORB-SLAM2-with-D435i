@@ -5,7 +5,7 @@ This repo is a modified version of ORB-SLAM2 for running on Intel RealSense D435
 Follow the instructions to build the project, then plugin your realsense camera and run the following command:
 
 ```bash
-./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/d345i.yaml
+./Examples/RGB-D/rgbd_realsense Vocabulary/ORBvoc.txt Examples/RGB-D/d345i.yaml
 ```
 
 Make sure camera parameters in `Examples/RGB-D/d345i.yaml` are correct. If you are not sure just run the example, the program will query and show camera parameters at the beginning.
